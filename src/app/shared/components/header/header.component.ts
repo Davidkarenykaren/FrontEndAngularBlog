@@ -8,11 +8,7 @@ import { AuthService } from '../../services/auth.service';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent {
-  constructor(private router: Router, public authService: AuthService){}
+  constructor(public authService: AuthService){}
 
-
-  goToCheckout(): void {
-    this.router.navigate(['/checkout']);
-  }
 
 }

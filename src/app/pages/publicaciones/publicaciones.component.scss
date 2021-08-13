@@ -1,3 +1,11 @@
+section.publicaciones {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 h1 {
   margin-top: 20px;
   margin-left: 80px;
@@ -16,9 +24,9 @@ h1 {
   }
 
   .form__element {
-    padding: 5px 0px 25px 2px;
-    width: 100%;
-    margin-bottom: 0.5rem;
+    padding: 5px 0px 5px 2px;
+    width: 50%;
+    margin-bottom: 0.1rem;
   }
 }
 
@@ -26,7 +34,7 @@ h1 {
   margin: 0 auto;
   display: block;
   width: 20%;
-  margin-top: 4rem;
+  margin-top: 0.1rem;
 
   button {
     width: 100%;

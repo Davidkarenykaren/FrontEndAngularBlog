@@ -8,24 +8,21 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { CartComponent } from './shared/components/cart/cart.component';
 import { SignupComponent } from './shared/components/signup/signup.component';
 import { SigninComponent } from './shared/components/signin/signin.component';
-import { AddInvComponent } from './pages/add-inv/add-inv.component';
 import{AuthGuard} from './auth.guard';
 import {TokenInterceptorService} from './shared/services/token-interceptor.service';
 
 import { SpinnerViewComponent } from './shared/components/spinner-view/spinner-view.component';
 import { UtilService } from './shared/services/util.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    CartComponent,
     SignupComponent,
     SigninComponent,
-    AddInvComponent,
     SpinnerViewComponent
   ],
   imports: [
